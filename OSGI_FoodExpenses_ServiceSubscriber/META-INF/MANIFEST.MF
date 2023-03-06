@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGI_FoodExpences_ServiceSubscriber
+Bundle-SymbolicName: OSGI_FoodExpenses_ServiceSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgi_foodexpenses_servicesubscriber.FoodExpenses_subActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: OSGI_FoodExpences_ServiceSubscriber
+Import-Package: org.osgi.framework;version="1.3.0",
+ osgi_foodexpenses_servicepublisher
+Bundle-ActivationPolicy: lazy
